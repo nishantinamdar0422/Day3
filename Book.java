@@ -39,9 +39,9 @@ class MainClass
     }
 
     public static void displayBooks(Book[] books) {
-        System.out.println("-----------------------------------------------");
+       // System.out.println("-----------------------------------------------");
         System.out.println("Book Title\t\t\tBook Price");
-        System.out.println("-----------------------------------------------");
+        //System.out.println("-----------------------------------------------");
 
         for(Book b:books)
         {
