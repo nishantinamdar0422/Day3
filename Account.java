@@ -30,22 +30,20 @@ public class Account {
 
             BankAccount account = new BankAccount(accNo, custName, accountType, bal);
 
-            System.out.println("----------------------------------");
+           // System.out.println("----------------------------------");
             System.out.println("Customer Account opening details: ");
             System.out.println("Account Number: " + account.getAccNo());
             System.out.println("Customer Name: " + account.getCustName());
             System.out.println("Account Type: " + account.getAccType());
             System.out.println("Account Balance: " + account.getBalance());
-            System.out.println("----------------------------------");
 
             int choice;
             do {
-                System.out.println("----------------------------------");
                 System.out.println("Enter 1 to Deposit into account.");
                 System.out.println("Enter 2 for Withdrawl from account.");
                 System.out.println("Enter 3 for Account Balance.");
                 System.out.println("Enter 4 for Exit.");
-                System.out.println("----------------------------------");
+               // System.out.println("----------------------------------");
                 System.out.println("Enter your Choice: ");
                 choice = Integer.parseInt(br.readLine());
                 switch (choice) {
