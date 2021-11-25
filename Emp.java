@@ -62,19 +62,19 @@ public class Emp {
     }
     void printDET()
     {
-        System.out.println("---------------------");
+        
         System.out.println("Employee details:");
         System.out.println("Employee Id: "+getEmpId());
         System.out.println("Employee Name: "+getEmpName());
         System.out.println("Employee Designation: "+getDesignation());
         System.out.println("Employee Basic Pay: "+getBasic());
         System.out.println("Employee HRA pay: "+getHra());
-        System.out.println("---------------------");
+       
     }
     void calculateHRA()
     {
         if(this.designation.equalsIgnoreCase("Manager"))
-            hra = (this.basic * 10)/100;
+            hra = (this.basic * 15)/100;
         else if(this.designation.equalsIgnoreCase("Officer"))
             hra = (this.basic * 12)/100;
         else if(this.designation.equalsIgnoreCase("Clerk"))
