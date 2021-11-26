@@ -1,0 +1,1 @@
+This file1.txt is edited from plugin2 branch
