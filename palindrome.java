@@ -5,7 +5,7 @@ public class Palindrome {
        String str = "";
        for(String s:args)
        {
-           str += s;
+           //str += s;
        }
        System.out.println("String "+str);
        System.out.println("Length "+str.length());
