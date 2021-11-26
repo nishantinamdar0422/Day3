@@ -1,0 +1,1 @@
+This is new File1.txt from plugin1 branch
